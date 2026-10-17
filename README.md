@@ -46,3 +46,58 @@ HTTPS is preferred over HTTP for secure web communication because TLS provides e
 
 ## Evidence
 Practical screenshots are in report can be added to this repository to document the work performed.
+
+# Task 17: Firewall Fundamentals (17 Oct 2026)
+
+## Overview
+
+This project was completed as part of my Cybersecurity Internship task with Veda Technology.
+
+The task focuses on understanding firewall fundamentals and creating a simple conceptual firewall policy to demonstrate how network traffic can be allowed or denied.
+
+## Objective
+
+- Understand the purpose of a firewall.
+- Learn the basics of network traffic filtering.
+- Identify allowed and denied traffic categories.
+- Create a sample firewall policy.
+- Understand packet-filtering and stateful firewalls.
+
+## Topics Covered
+
+1. Introduction to firewalls
+2. How firewalls work
+3. Types of firewalls
+4. Allowed and denied network traffic
+5. Sample firewall rules
+6. Firewall security best practices
+7. Common firewall interview questions
+
+## Sample Policy
+
+| Traffic | Action |
+|---|---|
+| Required outgoing HTTPS traffic | Allow |
+| DNS requests to approved servers | Allow |
+| Authorized SSH administration | Allow with restrictions |
+| Unsolicited incoming connections | Deny |
+| Traffic to known malicious destinations | Deny and log |
+| Other unapproved traffic | Deny by default |
+
+## Tools Used
+
+- Google Docs for preparing the report and documenting the policy.
+- Markdown for documenting the project.
+
+## Key Learning
+
+This task improved my understanding of network security, firewall rules, traffic filtering, and basic security policy documentation.
+
+## Conclusion
+
+Firewalls help protect networks by controlling traffic according to predefined rules. A clear firewall policy supports secure communication and reduces unnecessary network exposure.
+
+## Disclaimer
+
+This project is an educational, conceptual exercise. It does not represent a tested or deployed firewall configuration. Actual rules should be reviewed and tested before real-world use.
+
