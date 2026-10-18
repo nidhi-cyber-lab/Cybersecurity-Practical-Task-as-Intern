@@ -101,3 +101,55 @@ Firewalls help protect networks by controlling traffic according to predefined r
 
 This project is an educational, conceptual exercise. It does not represent a tested or deployed firewall configuration. Actual rules should be reviewed and tested before real-world use.
 
+# Task 18: VPN Fundamentals (18 Oct 2026)
+
+## Objective
+To understand VPN architecture and explain how Virtual Private Networks protect network traffic over untrusted networks.
+
+## Introduction
+A Virtual Private Network (VPN) creates an encrypted connection between a user's device and a VPN server or private network. This connection is commonly called an encrypted tunnel. It helps protect data while using untrusted networks, such as public Wi-Fi.
+
+## How a VPN Works
+1. The user connects to a VPN using a VPN client.
+2. The VPN system authenticates the user or device.
+3. A secure connection is established between the device and the VPN server.
+4. Network traffic covered by the VPN is encrypted.
+5. The encrypted traffic travels through the internet to the VPN server.
+6. The server forwards traffic to its destination according to the VPN configuration.
+
+## Types of VPN
+- Remote-Access VPN
+- Site-to-Site VPN
+- Client-Based VPN
+- SSL/TLS VPN
+
+## Benefits of VPN
+- Protects data in transit through encryption.
+- Helps improve security when using public Wi-Fi.
+- Supports secure remote access to organizational resources.
+- Connects separate office networks securely.
+- Helps protect traffic between VPN endpoints.
+
+## Limitations
+A VPN does not guarantee complete anonymity. Websites can still track users through cookies, account logins, and browser fingerprinting. VPNs also do not automatically protect against malware, phishing, or every cyberattack.
+
+## Security Best Practices
+- Use a trusted VPN provider or organization-approved VPN.
+- Enable multi-factor authentication where available.
+- Keep the VPN application and operating system updated.
+- Use HTTPS websites.
+- Avoid suspicious links and downloads.
+- Review the VPN provider's privacy policy.
+
+## Tools Used
+- Web Browser
+- Google Docs
+
+## Learning Outcome
+I learned the basic architecture of VPNs, how encrypted tunnels protect network traffic, the common types of VPNs, and why VPN encryption should not be confused with complete anonymity.
+
+## Conclusion
+VPNs are an important cybersecurity technology for protecting traffic across untrusted networks and enabling secure remote connectivity. They work best as one layer of a broader security strategy.
+
+Note: This task documents conceptual learning. No live VPN configuration or practical testing is claimed.
+
