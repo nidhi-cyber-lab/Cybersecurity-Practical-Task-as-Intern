@@ -152,4 +152,87 @@ I learned the basic architecture of VPNs, how encrypted tunnels protect network 
 VPNs are an important cybersecurity technology for protecting traffic across untrusted networks and enabling secure remote connectivity. They work best as one layer of a broader security strategy.
 
 Note: This task documents conceptual learning. No live VPN configuration or practical testing is claimed.
+# Task 19: Linux Security Basics (19 Oct 2026)
 
+## Internship
+**Organization:** Veda Technology  
+**Track:** Cybersecurity  
+**Task:** 19 — Linux Security Basics
+
+## 1. Objective
+To understand basic Linux security controls, including users, groups, file permissions, and ownership.
+
+## 2. Tools Used
+- JSLinux Online Linux Emulator
+- Alpine Linux (x86_64 Console)
+- Linux Terminal
+
+## 3. Practical Performed
+In this practical, I created a directory and file, modified file permissions, and checked user, group, and file ownership information.
+
+## 4. Commands Used
+
+### Create a directory and file
+```bash
+mkdir linux_security
+cd linux_security
+touch practical.txt
+```
+
+### Check file permissions
+```bash
+ls -l practical.txt
+```
+
+### Change permissions to 600
+```bash
+chmod 600 practical.txt
+ls -l practical.txt
+```
+**Result:** The owner can read and write. Group and others have no permissions.
+
+### Change permissions to 644
+```bash
+chmod 644 practical.txt
+ls -l practical.txt
+```
+**Result:** The owner can read and write. Group and others can read the file.
+
+### Change permissions to 700
+```bash
+chmod 700 practical.txt
+ls -l practical.txt
+```
+**Result:** The owner has read, write, and execute permissions. Group and others have no permissions.
+
+### Check user and group information
+```bash
+whoami
+id
+groups
+```
+
+### Check file details and ownership
+```bash
+stat practical.txt
+```
+
+## 5. Key Concepts Learned
+
+- **chmod:** Changes file and directory permissions.
+- **File Ownership:** Identifies the user and group associated with a file.
+- **Read (r):** Allows reading file contents.
+- **Write (w):** Allows modifying file contents.
+- **Execute (x):** Allows executing a file when applicable.
+- **Least Privilege:** Gives users only the permissions they need.
+
+## 6. Results
+The practical commands executed successfully in the JSLinux emulator. File permissions were changed to 600, 644, and 700. User and group information and file metadata were also checked.
+
+The emulator session ran as the `root` user, as confirmed by the `whoami` and `id` commands.
+
+## 7. Conclusion
+This practical improved my understanding of Linux file permissions, ownership, and user/group information. I learned how to use basic Linux commands to inspect and manage file access permissions.
+
+## 8. Evidence
+Attach the terminal screenshot showing the commands and their outputs as practical evidence.
