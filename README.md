@@ -234,5 +234,15 @@ The emulator session ran as the `root` user, as confirmed by the `whoami` and `i
 ## 7. Conclusion
 This practical improved my understanding of Linux file permissions, ownership, and user/group information. I learned how to use basic Linux commands to inspect and manage file access permissions.
 
+## Interview Questions
+1. What is chmod?
+>>chmod is a Linux command used to change file permissions.
+
+2. What is file ownership?
+>>It identifies the user and group that own a file.
+
+3. What is the principle of least privilege?
+>>Giving users only the permissions they need to do their work
+
 ## 8. Evidence
 Attach the terminal screenshot showing the commands and their outputs as practical evidence.
