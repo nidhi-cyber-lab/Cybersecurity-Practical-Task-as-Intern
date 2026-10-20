@@ -246,3 +246,81 @@ This practical improved my understanding of Linux file permissions, ownership, a
 
 ## 8. Evidence
 Attach the terminal screenshot showing the commands and their outputs as practical evidence.
+
+# Task 20:Linux User Management (20 Oct 2026)
+
+## Internship Practical — Veda Technology
+
+### Objective
+To understand Linux user account management, group creation, group membership, directory ownership, and access permissions.
+
+### Tools Used
+- JSLinux
+- Alpine Linux v3.23
+- Linux Terminal
+
+### Practical Implementation
+
+**1. Create a user**
+```bash
+adduser -D student1
+```
+
+**2. Verify the user**
+```bash
+id student1
+```
+
+**3. Create a group**
+```bash
+addgroup interns
+```
+
+**4. Add the user to the group**
+```bash
+addgroup student1 interns
+```
+
+**5. Create a practice directory**
+```bash
+mkdir -p /tmp/intern-lab
+```
+
+**6. Set directory ownership**
+```bash
+chown student1:interns /tmp/intern-lab
+```
+
+**7. Set directory permissions**
+```bash
+chmod 750 /tmp/intern-lab
+```
+
+**8. Verify directory permissions**
+```bash
+ls -ld /tmp/intern-lab
+```
+
+### Result
+- Created the `student1` user account.
+- Created the `interns` group.
+- Added `student1` to the `interns` group.
+- Created `/tmp/intern-lab` and assigned the appropriate owner and group.
+- Applied permission mode `750`.
+
+### Understanding Linux Permissions
+
+Permission `750` means:
+- **Owner (7):** Read, write, and execute.
+- **Group (5):** Read and execute.
+- **Others (0):** No permissions.
+
+### Key Learnings
+- Linux user and group management.
+- Managing directory ownership.
+- Applying file-system permissions.
+- Understanding the principle of least privilege.
+
+### Conclusion
+This practical provided hands-on experience with basic Linux account administration and access control using a browser-based Alpine Linux environment.
+
