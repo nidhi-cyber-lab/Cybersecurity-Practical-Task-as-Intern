@@ -324,3 +324,54 @@ Permission `750` means:
 ### Conclusion
 This practical provided hands-on experience with basic Linux account administration and access control using a browser-based Alpine Linux environment.
 
+# Task 22: Security Log Fundamentals (22 OCT 2026)
+
+## 1. Introduction
+Security Log Fundamentals is a basic cybersecurity task that helps us understand computer security logs and identify suspicious activities.
+
+## 2. Objective
+- To study common security logs.
+- To identify important log fields such as timestamp, user, source IP address, and event type.
+- To understand basic security event analysis.
+
+## 3. Tools Used
+- Windows Notepad (Text Editor)
+- Sample authentication logs
+
+## 4. Practical Steps
+1. Created a text file named `security_logs.txt`.
+2. Added sample authentication log entries to the file.
+3. Identified the timestamp, user, source IP address, and event type in each entry.
+4. Counted successful and failed login attempts.
+5. Analysed repeated failed login attempts to identify potentially suspicious activity.
+6. Prepared a report containing observations and a conclusion.
+
+## 5. Sample Log Analysis
+- Total log entries: 5
+- Successful login attempts: 2
+- Failed login attempts: 3
+- User with repeated failed attempts: `admin`
+- Source IP in the failed attempts: `203.0.113.25`
+
+## 6. Observations
+The sample logs show three failed login attempts for the admin account from the same source IP address. This pattern may indicate password guessing, but further investigation is needed to confirm whether an attack occurred.
+
+## 7. Conclusion
+This practical helped me understand how to read security logs, identify important fields, count login attempts, and recognise potentially suspicious activities. Security logs are useful for monitoring systems and investigating security incidents.
+
+## 8. Files Included
+- `security_logs.txt` – Contains sample authentication logs.
+- `Security_Log_Fundamentals_Practical_Report.pdf` – Contains the practical report and screenshot evidence.
+- `README.md` – Explains the task, tools, steps, and findings.
+
+## 9. Interview Questions
+**Q1. What is a security log?**  
+A security log is a record of activities or events on a computer or network.
+
+**Q2. What is a timestamp?**  
+A timestamp shows the date and time when an event occurred.
+
+**Q3. Why are security logs important?**  
+They help identify suspicious activities, troubleshoot problems, and investigate security incidents.
+
+**Note:** The log entries used in this practical are synthetic sample data created for educational purposes.
