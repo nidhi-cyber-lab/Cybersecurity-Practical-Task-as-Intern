@@ -375,3 +375,51 @@ A timestamp shows the date and time when an event occurred.
 They help identify suspicious activities, troubleshoot problems, and investigate security incidents.
 
 **Note:** The log entries used in this practical are synthetic sample data created for educational purposes.
+
+# Task 23: Authentication Log Analysis Using Microsoft Excel(23 Oct 2026)
+
+## Project Overview
+This project focuses on analyzing synthetic authentication logs using Microsoft Excel Online to identify successful logins, failed login attempts, and potentially suspicious login activity.
+
+## Objective
+- Count successful and failed login attempts.
+- Analyze login records using Excel formulas.
+- Identify IP addresses with repeated failed login attempts.
+- Understand basic authentication monitoring in cybersecurity.
+
+## Tools Used
+- Microsoft Excel Online
+- CSV dataset
+- Excel formulas: `COUNTIF` and `COUNTIFS`
+
+## Dataset Description
+The dataset contains 20 synthetic login records with the following columns:
+
+- **Timestamp:** Date and time of the login attempt.
+- **Username:** Account name used for login.
+- **Source IP:** IP address associated with the attempt.
+- **Status:** Success or Failed.
+
+## Methodology
+1. Opened the CSV dataset in Excel Online.
+2. Reviewed the login records and their status.
+3. Used `COUNTIF` to count successful and failed logins.
+4. Used `COUNTIF` and `COUNTIFS` to analyze a specific IP address.
+5. Identified repeated failed login attempts for further investigation.
+
+## Key Results
+- Total login events: 20
+- Successful logins: 7
+- Failed logins: 13
+- Failed attempts from IP `203.0.113.50`: 6
+
+## Conclusion
+The analysis identified repeated failed login attempts from one IP address. Such activity may indicate password guessing or other authentication issues and should be investigated further. Repeated failures alone do not prove that an attack occurred.
+
+## Learning Outcomes
+- Learned basic authentication log analysis.
+- Practiced Excel formulas for security data analysis.
+- Understood how failed login patterns can help identify potentially suspicious activity.
+- Improved basic cybersecurity monitoring skills.
+
+**Note:** This project uses synthetic data for educational purposes only.
