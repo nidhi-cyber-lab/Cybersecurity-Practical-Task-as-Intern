@@ -423,3 +423,62 @@ The analysis identified repeated failed login attempts from one IP address. Such
 - Improved basic cybersecurity monitoring skills.
 
 **Note:** This project uses synthetic data for educational purposes only.
+
+## Task 24: Security Event Classification (23 Oct 2026)
+
+## 📌 Project Overview
+This project is a beginner-level cybersecurity practical focused on classifying security events as **Normal, Suspicious, or Potentially Malicious** using Microsoft Excel.
+
+The goal is to understand basic security triage and learn how to identify unusual activities that may indicate potential security threats.
+
+## 🎯 Objective
+- Develop basic security event analysis skills.
+- Classify sample security events into three categories.
+- Document the reason behind each classification.
+- Summarize the results using Excel.
+
+## 🛠️ Tools Used
+- Microsoft Excel
+- Sample/Synthetic Security Event Logs
+
+## 📋 Activities Performed
+1. Reviewed 10 sample security events.
+2. Classified each event based on its description.
+3. Added reasons for the selected classifications.
+4. Counted events in each category.
+5. Prepared a conclusion summarizing the results.
+
+## 📊 Results
+
+| Classification | Number of Events |
+|---|---:|
+| Normal | 3 |
+| Suspicious | 4 |
+| Potentially Malicious | 3 |
+| **Total** | **10** |
+
+## 🔍 Examples of Security Events
+- Successful login during normal hours
+- Multiple failed login attempts
+- Login from an unknown country
+- Antivirus detecting known malware
+- Many files encrypted suddenly
+- Unknown program sending data externally
+
+## 📚 Key Learnings
+- Understood the basics of security triage.
+- Learned to identify potentially suspicious activities.
+- Practiced documenting reasons for security classifications.
+- Learned how Excel can help organise and summarise security event data.
+
+## ✅ Conclusion
+This practical helped me understand how sample security events can be classified and reviewed using Microsoft Excel. It introduced me to basic cybersecurity analysis and the importance of investigating suspicious activities before reaching a final conclusion.
+
+## ⚠️ Disclaimer
+This project is for educational purposes only and uses sample security event descriptions. The classifications do not confirm that a real cyberattack occurred.
+
+---
+**Project:** Security Event Classification  
+**Domain:** Cybersecurity  
+**Level:** Beginner  
+**Tool:** Microsoft Excel
