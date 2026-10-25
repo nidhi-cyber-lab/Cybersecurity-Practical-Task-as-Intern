@@ -482,3 +482,41 @@ This project is for educational purposes only and uses sample security event des
 **Domain:** Cybersecurity  
 **Level:** Beginner  
 **Tool:** Microsoft Excel
+
+# Task 25: Basic Incident Response  (25 Oct 2026)
+
+## Overview
+This project explains the basic stages of cybersecurity incident response and provides a practical checklist for handling security incidents.
+
+## Objective
+To understand incident response fundamentals and prepare a checklist for identifying, containing, and recovering from cybersecurity incidents.
+
+## Topics Covered
+- Preparation
+- Detection and Analysis
+- Containment
+- Eradication
+- Recovery
+- Lessons Learned
+
+## Tools Used
+- Google Docs
+- Basic cybersecurity knowledge
+
+## Sample Scenario
+A computer becomes infected after an employee opens a malicious email attachment.
+
+The response includes detecting the infection, isolating the affected computer, investigating the incident, removing the malware, restoring the system, and documenting lessons learned.
+
+## Deliverable
+An incident response checklist covering all major stages of incident handling.
+
+## Key Learnings
+- Understood the importance of incident response.
+- Learned how containment prevents an incident from spreading.
+- Identified the steps required for safe recovery.
+- Understood the importance of documentation and continuous improvement.
+
+## Conclusion
+A structured incident response process helps reduce the impact of cybersecurity incidents and improves an organization's security readiness.
+
