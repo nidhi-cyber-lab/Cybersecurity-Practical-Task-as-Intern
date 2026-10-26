@@ -520,3 +520,46 @@ An incident response checklist covering all major stages of incident handling.
 ## Conclusion
 A structured incident response process helps reduce the impact of cybersecurity incidents and improves an organization's security readiness.
 
+# Task 26:Data Privacy Basics – Cybersecurity Practical (26 Oct 2026)
+
+## Overview
+This project focuses on identifying different types of information and recommending suitable protection measures to maintain data privacy and security.
+
+## Objective
+To understand data classification and learn how to protect public, internal, confidential, and sensitive information.
+
+## Tools Used
+- Google Sheets
+
+## Practical Tasks
+1. Created a data classification table.
+2. Classified information into public, internal, confidential, and sensitive categories.
+3. Identified potential risks if information is exposed.
+4. Recommended protection measures for each data item.
+5. Prepared a conclusion on the importance of data privacy.
+
+## Data Classification Examples
+
+| Data Item | Classification | Protection Measure |
+|---|---|---|
+| Customer Name | Confidential | Restrict access |
+| Email Address | Confidential | Use access controls |
+| Phone Number | Sensitive | Mask phone numbers |
+| Password | Sensitive | Store salted password hashes |
+| Company Policy | Internal | Allow authorized access only |
+| Public Website URL | Public | Perform regular security checks |
+| Payment Card Details | Sensitive | Avoid unnecessary storage |
+
+## Key Concepts Learned
+- Data classification
+- Sensitive information protection
+- Access control
+- Encryption
+- Data minimization
+- Data leakage prevention
+
+## Conclusion
+Data classification helps organizations identify and protect information according to its sensitivity. Applying appropriate security measures such as encryption, access control, and data minimization reduces the risk of data leakage, identity theft, and unauthorized access.
+
+## Disclaimer
+All examples used in this practical are illustrative or synthetic and should not be treated as real customer information.
