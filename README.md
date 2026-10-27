@@ -563,3 +563,43 @@ Data classification helps organizations identify and protect information accordi
 
 ## Disclaimer
 All examples used in this practical are illustrative or synthetic and should not be treated as real customer information.
+
+# Task 27: Backup Security (27 Oct 2026)
+
+## Overview
+This task focuses on designing a basic backup strategy for a small organization to protect important data and ensure recovery after data loss or cyberattacks.
+
+## Objective
+To understand backup security, recovery procedures, and the 3-2-1 backup rule.
+
+## Key Concepts
+- Data backup and recovery
+- 3-2-1 backup rule
+- Daily incremental and weekly full backups
+- Backup encryption
+- Access control and authentication
+- Offline and immutable backups
+- Backup monitoring and recovery testing
+
+## Proposed Strategy
+1. Identify critical organizational data.
+2. Maintain three copies of important data.
+3. Use two different storage types.
+4. Keep one backup copy off-site.
+5. Encrypt backups and restrict access.
+6. Schedule regular backups.
+7. Monitor backup logs and test restoration.
+
+## Tools
+- Google Docs for documentation
+- Secure local or external storage
+- Encrypted cloud or off-site storage
+
+## Outcome
+A basic backup strategy was designed to improve data protection, recovery readiness, and business continuity.
+
+## Conclusion
+Following the 3-2-1 backup rule, using encryption, applying access controls, and testing recovery can help an organization reduce data-loss risks.
+
+## Deliverable
+Backup Security Strategy Report (PDF)
