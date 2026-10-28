@@ -602,4 +602,39 @@ A basic backup strategy was designed to improve data protection, recovery readin
 Following the 3-2-1 backup rule, using encryption, applying access controls, and testing recovery can help an organization reduce data-loss risks.
 
 ## Deliverable
-Backup Security Strategy Report (PDF)
+Backup Security Strategy Report 
+
+# Task 28: Software Update Security (28/Oct/2026)
+
+## Project Overview
+This project explains the importance of software updates and security patches and provides a basic patch management checklist.
+
+## Objective
+To understand vulnerability management basics and learn how to plan, test, install, verify, and document software updates.
+
+## Topics Covered
+- Importance of software updates and security patches
+- Vulnerabilities and patch management
+- Risks of outdated applications
+- Patch management checklist
+- Operating systems, applications, and firmware
+- Basic patch management workflow
+
+## Tools Used
+- Web Browser
+- Google Docs
+
+## Deliverables
+- Software Update Security Report (PDF)
+- Patch Management Checklist
+
+## Learning Outcomes
+- Understood why regular software updates are important.
+- Learned how outdated applications create security risks.
+- Understood the basic steps of patch management.
+- Learned the importance of testing and verifying updates.
+
+## Conclusion
+Patch management helps reduce security vulnerabilities, improve system stability, and protect data from potential cyber threats. Regular updates and proper documentation are important parts of cybersecurity.
+
+
