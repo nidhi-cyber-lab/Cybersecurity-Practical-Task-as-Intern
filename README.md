@@ -637,4 +637,38 @@ To understand vulnerability management basics and learn how to plan, test, insta
 ## Conclusion
 Patch management helps reduce security vulnerabilities, improve system stability, and protect data from potential cyber threats. Regular updates and proper documentation are important parts of cybersecurity.
 
+# Task 29: Secure Browsing Practices (29 Oct 2026)
+
+## Project Overview
+This project focuses on creating a secure browsing checklist for employees to encourage safe internet usage and reduce common cybersecurity risks.
+
+## Objective
+To develop safe internet browsing practices and help employees recognize suspicious websites, unsafe downloads, and potential online threats.
+
+## Tools Used
+- Web Browser
+- Google Docs
+
+## Key Activities
+- Checked website URLs and HTTPS connections.
+- Identified risks associated with suspicious links and pop-ups.
+- Reviewed safe downloading practices.
+- Highlighted the importance of browser updates.
+- Explained why browser extensions and their permissions should be reviewed.
+- Recommended password protection and secure handling of confidential information.
+
+## Deliverable
+An employee secure browsing checklist and a PDF report containing security recommendations and interview questions.
+
+## Key Learnings
+- HTTPS helps protect information during transmission.
+- HTTPS does not automatically mean a website is trustworthy.
+- Browser updates help fix security vulnerabilities.
+- Untrusted extensions may access sensitive browsing data.
+- Suspicious links and downloads should be avoided.
+- Employees should report suspected security incidents promptly.
+
+## Conclusion
+Secure browsing practices help reduce phishing, malware infections, credential theft, and data leakage. Employees should verify website addresses, download files only from trusted sources, keep browsers updated, and review installed extensions regularly.
+
 
