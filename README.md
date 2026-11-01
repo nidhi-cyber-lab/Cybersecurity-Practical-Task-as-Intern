@@ -671,4 +671,39 @@ An employee secure browsing checklist and a PDF report containing security recom
 ## Conclusion
 Secure browsing practices help reduce phishing, malware infections, credential theft, and data leakage. Employees should verify website addresses, download files only from trusted sources, keep browsers updated, and review installed extensions regularly.
 
+# TasK 32: Password Security & Authentication Analysis (1 Nov 2026)
 
+## Objective
+To understand basic cybersecurity concepts related to password security and user authentication.
+
+## Project Description
+This project is an educational prototype that demonstrates password strength evaluation, user registration, login authentication, password hashing, failed-login tracking, temporary account lockout, and authentication logging.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Web Crypto API
+
+## Features
+1. Password strength checker
+2. Demo user registration
+3. Password hashing demonstration
+4. Login authentication
+5. Failed-login tracking
+6. Temporary account lockout after five failed attempts
+7. Authentication event logs
+8. Basic security recommendations
+
+## Security Recommendations
+- Never store plaintext passwords.
+- Use secure password-hashing algorithms.
+- Limit repeated failed login attempts.
+- Use HTTPS and secure session management in production.
+- Use synthetic accounts for testing.
+
+## Conclusion
+This project demonstrates basic authentication security concepts and explains how password policies, hashing, account lockout, and security logs can help protect user accounts.
+
+## Limitation
+This is a browser-based educational prototype. It does not include a Python Flask backend or persistent SQLite database and is not suitable for real user accounts.
